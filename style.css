@@ -1,0 +1,69 @@
+html 
+{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(255,255,240,1);
+}
+
+.outerBox {
+    height: 10vh;
+    padding: 0 20px;
+    margin: 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-- Inner Box CSS --*/
+.innerBox {
+    padding: 10px;
+    font-size: 20px;
+}
+.outerBoxMap {
+    height: 85vh;
+    padding: 0 20px;
+    margin: 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#map{
+    height: 85vh;
+    width: 190vh;
+    padding-bottom: 0px;
+}
+.logoContainer {
+    background: rgba(51,51,49,1);
+    height: 10vh;
+    padding: 0 20px;
+    margin: 5px 5px 5px;
+    display: flex;
+}
+.logo {
+    height: auto;
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.backToMapLogo {
+  padding: 6px;
+}
+.infoWindowContent
+{
+    font-family: Eras Medium ITC;
+    font-weight: Regular;
+    font-size: 14px;
+    color : rgb(20, 228, 99);
+}
+div.title{
+    background-color: blueviolet;
+}
